@@ -45,22 +45,20 @@
         </ol>
     </p>
     <hr size = "10" color="#F8E0EC">
-    <form>
-        <label>Ваше ім'я:</label>
-        <br>
-        <input type="name" id="submitted-name" name="name">
-        <br>
-        <label for="email">Введіть свою електронну адресу:</label>
-        <br>
-        <input type="email" id="email" name="email">
-        <br>
-        <label>Ваше повідомлення:</label>
-        <br>
-        <!--Вікно для вмісту довільного тексту textarea-->
-        <textarea name="yourMessage" rows="10" cols="30"></textarea>
-        <br>
+
+    <h2>Відправити повідомлення на e-mail vladimira@example.com:</h2>
+
+    <form action="mailto:vladimira@example.com" method="post" enctype="text/plain">
+        Ім'я:<br>
+        <input type="text" name="name"><br>
+        E-mail:<br>
+        <input type="text" name="mail"><br>
+        Повідомлення:<br>
+        <input type="text" name="comment" size="50"><br><br>
         <input type="submit" value="Відправити">
-      </form>
-      <hr size = "10" color="#F8E0EC">
+        <input type="reset" value="Скинути">
+    </form>
+
+    <hr size = "10" color="#F8E0EC">
 </body>
 </html>
