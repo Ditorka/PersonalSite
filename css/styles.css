@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+a
+{
+    font-family: Arial, fantasy, serif;
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+body, html
+{
+    margin: 0;
+    text-align: center;
+    background-color: #F8E0F7;
+}
+
+h3
+{
+    font-variant: small-caps;
+}
+
+hr
+{
+  border-color: #e5c5b5;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 25%;
+}
+
+ol
+{
+    line-height: 150%;
+}
+
+p
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+span
+{
+    color: #DF013A;
+}
+
+/***************************************************Classes***************************************************/
+
+.contextwidth50
+{
+    width: 50%;
+}
+
+.contextwidth100
+{
+    width: 100%;
+}
+
+.imgwidth200
+{
+    width: 200px;
+}
+
+.imgwidth300
+{
+    width: 300px;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.left
+{
+    text-align: left;
+    vertical-align: top;
+    font-size: 22px;
+}
+
+.p
+{
+    font-size: 22px;
+}
+
+.weight600
+{
+    font-weight: 600;
+}
+
+.weight800
+{
+    font-weight: 800;
+}
+
+/***************************************************Contact***************************************************/
+
+.contactbody
+{
+    text-align: left;
+}
+
+.contacthr
+{
+    width: 15%;
+}
+
+/***************************************************Information***************************************************/
+
+.informationbody
+{
+    text-align: left;
+}
+
+.informationhr
+{
+    width: 15%;
+}
