@@ -1,6 +1,6 @@
 # PersonalSite
 
-A web application presented as a personal site. Made as my pet-project.
+A web application presented as a personal site.
 
 # What I Learned
 
